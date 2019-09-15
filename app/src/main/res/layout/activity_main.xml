@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/tituloId"
-        android:layout_width="384dp"
-        android:layout_height="42dp"
+        android:layout_width="346dp"
+        android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Índice de massa corporal (IMC) para adultos por gênero"
+        android:text="Índice de massa corporal (IMC) para adultos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -106,7 +107,8 @@
         android:text="Calcular IMC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAlturaId" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextAlturaId"
+     />
 
     <ToggleButton
         android:id="@+id/toggleButton3"
